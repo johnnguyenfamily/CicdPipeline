@@ -7,7 +7,7 @@ node {
     }
     
     stage('build') {
-      sh "mvn clean install -Dmaven.test.skip=true"
+      sh "mvn install -Dmaven.test.skip=true"
     }
     
     stage('test') {
