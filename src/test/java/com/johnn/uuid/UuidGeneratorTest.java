@@ -9,6 +9,6 @@ public class UuidGeneratorTest {
 	public void testUuidLength() {
 		
 		UuidGenerator uuidGenerator = new UuidGenerator();
-		Assert.assertEquals(37, uuidGenerator.generateUuid().length());		
+		Assert.assertEquals(36, uuidGenerator.generateUuid().length());		
 	}
 }
