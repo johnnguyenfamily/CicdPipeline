@@ -56,9 +56,8 @@ After you have done configure your pipeline, click "Build Now" and your build ou
 
 It was great to see a successful build, but you may wonder how a failure build would look like and how to cause the failure to happen.
 
-In this case, it should be an easy thing to do. Let us change something to make the test fail. Try changing 36 to 37 from the UuidGeneratorTest.java to cause the test to fail, i.e.
+In this case, it should be an easy thing to do. Let us change something to make the test fail. Try changing 36 to 37 from the UuidGeneratorTest.java to cause the test to fail. Note that uuid length is 36, so change it to any other number will cause the test to fail, e.g.
 
-// Note that uuid length is 36, so change it to any other number will cause the test to fail.
 Assert.assertEquals(37, uuidGenerator.generateUuid().length());
 
 Now build it again, and you will see the build output will look something like this:
