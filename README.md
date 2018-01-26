@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Introduction
 
 Today software needs to be released more often with high quality, so the traditional of software development processes have to change. CI/CD (Continuous Integration/Continuous Deployment) Pipeline is the answer where code check-in by developers can be verified by an automated build, which allowing the development team to detect problems early in the process.
@@ -11,8 +10,8 @@ In this CI/CD Pipeline example, I'll use Jenkins (a popular open source tool to 
 
 Since I am a Linux guy, so I like to have my Jenkins running on Linux. Just following the steps bebow to download/install VirtualBox and Vagrant. Then follow the next section to spin-up a virtual Linux server and  installing Jenkins.
 
-To download/install Vagrant: https://www.vagrantup.com/downloads.html 
-To download/install VirtualBox: https://www.virtualbox.org/wiki/Downloads
+- To download/install Vagrant: https://www.vagrantup.com/downloads.html 
+- To download/install VirtualBox: https://www.virtualbox.org/wiki/Downloads
 
 # Spin Up an Ubuntu box and ssh to it
 
@@ -65,8 +64,4 @@ Assert.assertEquals(37, uuidGenerator.generateUuid().length());
 Now build it again, and you will see the build output will look something like this:
 
 ![](images/BuildFail.png?raw=true)
-=======
-Sample Java code to generate a UUID (Universal Unique Identifier) number.
 
-In this project, I also demonstrate how you can use Jenkins CI (Continuous Integration) pipeline (i.e. Jenkinsfile) to automate the Maven build and test process.
->>>>>>> 45f8348e36de223aefa79dd20a985b70f7576c84
